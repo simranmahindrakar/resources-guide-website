@@ -20,7 +20,7 @@
 						<div class="inner">
 
 							<!-- Logo -->
-								<a href="index.html" class="logo">
+								<a href="index.php" class="logo">
                                     <span class="symbol"><img src="images/logo.svg" alt="logo" /></span><span class="title">The Resource Guide</span>
 								</a>
 
@@ -38,9 +38,9 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href="index.html">HOME</a></li>
-							<li><a href="about.html">ABOUT US</a></li>
-							<li><a href="math.html">MATHEMATICS</a></li>
+							<li><a href="index.php">HOME</a></li>
+							<li><a href="about.php">ABOUT US</a></li>
+							<li><a href="math.php">MATHEMATICS</a></li>
 <!--
 							<li><a href="generic.html">Consequat dolor</a></li>
 							<li><a href="elements.html">Elements</a></li>
@@ -58,9 +58,9 @@
 							<section class="tiles">
 							<article class="style1">
 									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
+										<img src="images/pic07.jpg" alt="" />
 									</span>
-									<a href="absolutebeg.html">
+									<a href="absolutebeg.php">
 										<h2>ABSOLUTE BEGINNER</h2>
 										<div class="content">
 										</div>
@@ -72,7 +72,7 @@
 									<span class="image">
 										<img src="images/pic01.jpg" alt="" />
 									</span>
-									<a href="python.html">
+									<a href="python.php">
 										<h2>PYTHON</h2>
 										<div class="content">
 										</div>
@@ -80,9 +80,9 @@
 								</article>
 								<article class="style2">
 									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
+										<img src="images/pic12.jpg" alt="" />
 									</span>
-									<a href="c.html">
+									<a href="c.php">
 										<h2>C</h2>
 										<div class="content">
 											
@@ -93,7 +93,7 @@
 									<span class="image">
 										<img src="images/pic02.jpg" alt="" />
 									</span>
-									<a href="cpp.html">
+									<a href="cpp.php">
 										<h2>C++</h2>
 										<div class="content">
 											
@@ -104,7 +104,7 @@
 									<span class="image">
 										<img src="images/pic03.jpg" alt="" />
 									</span>
-									<a href="java.html">
+									<a href="java.php">
 										<h2>JAVA</h2>
 										<div class="content">
 										</div>
@@ -114,7 +114,7 @@
 									<span class="image">
 										<img src="images/pic04.jpg" alt="" />
 									</span>
-									<a href="javascript.html">
+									<a href="javascript.php">
 										<h2>JAVASCRPIT</h2>
 										<div class="content">
 										</div>
@@ -124,7 +124,7 @@
 									<span class="image">
 										<img src="images/pic05.jpg" alt="" />
 									</span>
-									<a href="ds.html">
+									<a href="ds.php">
 										<h2>DATA STRUCTURES</h2>
 										<div class="content">
 										</div>
@@ -134,7 +134,7 @@
 									<span class="image">
 										<img src="images/pic06.jpg" alt="" />
 									</span>
-									<a href="algo.html">
+									<a href="algo.php">
 										<h2>ALGORITHMS</h2>
 										<div class="content">
 										</div>
@@ -145,7 +145,7 @@
 									<span class="image">
 										<img src="images/pic07.jpg" alt="" />
 									</span>
-									<a href="practiceplat.html">
+									<a href="practiceplat.php">
 										<h2>PRACTICE PLATFORMS</h2>
 										<div class="content">
 											
@@ -156,7 +156,7 @@
 									<span class="image">
 										<img src="images/pic08.jpg" alt="" />
 									</span>
-									<a href="solved.html">
+									<a href="solved.php">
 										<h2>SOLVED PROBLEMS</h2>
 										<div class="content">
 										</div>
@@ -167,7 +167,7 @@
 									<span class="image">
 										<img src="images/pic09.jpg" alt="" />
 									</span>
-									<a href="oop.html">
+									<a href="oop.php">
 										<h2>OBJECT ORIENTED PROGRAMMING</h2>
 										<div class="content">
 										</div>
@@ -177,7 +177,7 @@
 									<span class="image">
 										<img src="images/pic10.jpg" alt="" />
 									</span>
-									<a href="dp.html">
+									<a href="dp.php">
 										<h2>DYNAMIC PROGRAMMING</h2>
 										<div class="content">
 										</div>
@@ -187,7 +187,7 @@
 									<span class="image">
 										<img src="images/pic11.jpg" alt="" />
 									</span>
-									<a href="mathforprog.html">
+									<a href="mathforprog.php">
 										<h2>MATHEMATICS FOR PROGRAMMERS</h2>
 										<div class="content">
 										</div>
@@ -197,7 +197,7 @@
 									<span class="image">
 										<img src="images/pic12.jpg" alt="" />
 									</span>
-									<a href="webdev.html">
+									<a href="webdev.php">
 										<h2>WEB DEVELOPMENT</h2>
 										<div class="content">
 										</div>
@@ -249,7 +249,6 @@
 								<ul class="icons">
 									<li><a href="https://www.linkedin.com/in/simran-mahindrakar-3105671a9/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://github.com/simranmahindrakar" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
 							</section>
 							<ul class="copyright">
@@ -266,6 +265,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f49f8c19a03ed2d"></script>
+
 
 	</body>
 </html>
