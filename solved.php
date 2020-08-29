@@ -54,7 +54,15 @@
 									 along with the explanations and code. You may think of this as a coding blog.</p>
 								
 							</header>
-							<section class="tiles">
+
+							<div id="main">
+						<div class="inner">
+							<h2 class="about copy">COMING SOON</h2>
+							<!-- <span class="image main"><img src="images/pic13.jpg" alt="" /></span> -->
+							
+						</div>
+					</div>
+							<!-- <section class="tiles">
 								<article class="style1">
 									<span class="image">
 										<img src="images/pic01.jpg" alt="" />
@@ -97,7 +105,7 @@
 										</div>
 									</a>
 								</article>
-								
+								 -->
 								
 										
 
