@@ -2,9 +2,12 @@
 
 <html>
 	<head>
+	    
 		<title>The Resource Guide</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="The Resource Guide is a collection of some of the best Computer Science and Mathematics resources for beginners on the internet.">
+		
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -227,13 +230,13 @@
 
 									<div class="fields">
 										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
+											<input type="text" name="name" id="name" placeholder="Your Name" required/>
 										</div>
 										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
+											<input type="email" name="email" id="email" placeholder="Your Email" required/>
 										</div>
 										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
+											<textarea name="message" id="message" placeholder="Type Message" required></textarea>
 										</div>
 									</div>
 									<ul class="actions">
