@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>C++ - The Resource Guide</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">The Resource Guide</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="about.html">ABOUT US</a></li>
+							<li><a href="math.html">MATHEMATICS</a></li>
+<!--
+							<li><a href="generic.html">Consequat dolor</a></li>
+							<li><a href="elements.html">Elements</a></li>
+-->
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Learn C++</h1>
+							<!-- <span class="image main"><img src="images/pic13.jpg" alt="" /></span> -->
+							<h2>Online Courses</h2>
+                            <ul>
+                             <a href="https://nptel.ac.in/courses/106/105/106105151/" target="_blank"><li>NPTEL</li></a>
+							 <a href="https://www.edx.org/course/programming-basics" target="_blank"><li>edX</li></a>
+							 <a href="https://www.youtube.com/playlist?list=PLOzRYVm0a65eklyMDXGSWObRA-7lCdkSm" target="_blank"><li>An Introduction To Programming through C++ by Abhiram Ranade </li></a>
+
+							 </ul>
+							 
+							 <h2>C++ beginner tutorial videos</h2>
+							 <ul>
+								<a href="https://www.youtube.com/watch?v=6y0bp-mnYU0" target="_blank"><li>YouTube - Derek Banas</li></a>
+								<a href="https://www.youtube.com/watch?v=mUQZ1qmKlLY" target="_blank"><li>YouTube - Extern Code </li></a>
+								<a href="https://www.youtube.com/watch?v=vLnPwxZdW4Y" target="_blank"><li>YouTube - Free Code Camp</li></a>
+								<a href="" target="_blank"><li> </li></a>
+
+
+							 </ul>
+
+                            <h2>Books </h2>
+                            
+                            <ul>
+                                <li>An Introduction to Programming through C++ by Abhiram Ranade</li>
+                                <li>C++ Primer by Stanley Lippman</li>
+							</ul>
+
+							<h2>C++ Online Reference sites</h2>
+							<ul>
+								<a href="https://www.learncpp.com/" target="_blank"><li>LearnCpp</li></a>
+								<a href="http://cplusplus.com/doc/tutorial/" target="_blank"><li>cplusplus</li></a>
+
+
+							</ul>
+							<h2>Pointers in C/C++</h2>
+							<ul>
+								<a href="https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_" target="_blank"><li>My Code School</li></a>
+
+
+							</ul>
+
+
+                           
+                            <h2>Useful Articles</h2>
+                          
+                         <ul>
+            <a href="https://www.geeksforgeeks.org/range-based-loop-c/"target="_blank"><li>Range-based for loop in C++</li></a>
+            <a href="https://www.geeksforgeeks.org/cin-get-in-c-with-examples/?ref=leftbar-rightbar" target="_blank"><li>cin get() in C++</li></a>
+            <a href="https://www.geeksforgeeks.org/vector-in-cpp-stl/" target="_blank"><li>Vectors in C++ (GFG)</li></a>
+            <a href="https://www.javatpoint.com/cpp-vector" target="_blank"><li>Vectors in C++ (Java T Point)</li></a>
+            <a href="https://www.geeksforgeeks.org/vector-of-vectors-in-c-stl-with-examples/?ref=leftbar-rightbar" target="_blank"><li>Vector of Vectors</li></a>
+            <a href="https://www.geeksforgeeks.org/array-of-vectors-in-c-stl/?ref=leftbar-rightbar" target="_blank"><li>Array of Vectors</li></a>
+            <a href="https://www.geeksforgeeks.org/pair-in-cpp-stl/" target="_blank"><li>Pairs in C++</li></a>
+            <a href="https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/" target="_blank"><li>Map in C++                   </li></a>
+                   </ul>
+                
+                <h2>Important</h2>
+                <ul>
+            <a href="https://www.geeksforgeeks.org/cpp-stl-tutorial/" target="_blank"><li>STL Tutorial</li></a>
+            <a href= "https://www.geeksforgeeks.org/c-magicians-stl-algorithms/" target="_blank"><li>Algorithms Library</li></a>
+                 </ul>
+       
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="mailer.php" id="form">
+                                    <?php
+                                    if(($_GET['success'] == 1)) {
+                                        echo "<div class=\"form-messages success\">Thank you! Your message has been sent.</div>";
+
+                                    }
+                                    if(($_GET['success'] == -1)) {
+                                        echo "<div class=\"form-messages error\">Oops! Something went wrong. Please try again.</div>";
+                                    }
+									
+									
+                                    ?>
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>CONNECT</h2>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/simran-mahindrakar-3105671a9/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/simranmahindrakar" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
